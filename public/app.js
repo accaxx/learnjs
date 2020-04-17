@@ -3,7 +3,6 @@ var learnjs = {};
 
 learnjs.problemView = function(problemNumber) {
     let title = 'Problem #' + problemNumber + ' Coming soon!';
-    console.log(title);
     return $('<div class="problem-view">').text(title);
 }
 
